@@ -1,0 +1,252 @@
+@import'./fonts.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    background: #151515;
+}
+.container{
+width: 100%;
+max-width: 1110px;
+margin: 0 auto;
+}
+nav{
+    background: #282828;
+}
+.nav__content{
+    display: flex;
+    align-items: center;
+}
+.nav__logo{
+    padding: 6px ;
+}
+.nav__list{
+    display: flex;
+}
+.nav__list-link,
+.footer__link{
+    font-weight: 700;
+font-size: 20px;
+text-align: right;
+color: #fff;
+padding-left: 30px;
+font-family: 'Montserrat-Bold';
+}
+.menu__list{
+    width: 100%;
+    display: flex;
+    justify-content:flex-end ;
+}
+
+.nav__minu{
+    display: flex;
+    gap: 25px;
+}
+.header__content{
+    min-height: 700px;
+    background: url('../img/Header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 36px;
+}
+.header__title{
+    font-weight: 400;
+font-size: 100px;
+line-height: 75%;
+color: #fff;
+font-family: 'ProstoOne';
+
+}
+.header__list-link{
+display: flex;
+align-items: center;
+justify-content: center;
+    font-weight: 500;
+font-size: 20px;
+text-transform: uppercase;
+color: #171718;
+border-radius: 10px;
+width: 200px;
+height: 50px;
+background: #fff;
+gap: 11px;
+font-family: 'Montserrat-Medium';
+}
+.preview__content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.preview__text
+{
+    font-weight: 500;
+font-size: 22px;
+color: #fff;
+font-family: 'Montserrat-Medium';
+}
+.box__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 86px;
+    margin-top:51px;
+}
+.airpods__text{
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+    gap: 86px;
+    font-family: 'Montserrat-Medium';
+}
+.box__end{
+    display: flex;
+    margin-top: 48px;
+}
+.box__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 87px;
+
+   
+}
+.box__item-text{
+    width: 100%;
+   height: 120px;
+    font-weight: 700;
+font-size: 20px;
+text-align: right;
+color: #fff;
+font-family: 'Montserrat-Bold';
+position: relative;
+}
+.box__item-text::after{
+    content: '';
+    position: absolute;
+    width: 61px;
+height: 1px;
+    background: #c4c4c4; 
+    top: 50%;
+   right: -23%;
+}
+.box__item-paz{
+    width: 333px;
+    height: 120px;
+    font-weight: 700;
+font-size: 20px;
+color: #fff;
+font-family: 'Montserrat-Bold';
+position: relative;
+}
+.box__item-paz::before{
+    content: '';
+    position: absolute;
+    width: 61px;
+height: 1px;
+    background: #c4c4c4;
+    top: 50%;
+    left:-23%;
+}
+
+.pacaz{
+    width: 1038px;
+    height: 312px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pacaz__item{
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+   min-width: 255px;
+    height: 312px;
+    background: #fff;
+    gap: 30px;
+}
+.pacaz__cards{
+    display: flex;
+    gap: 30px;
+    margin-top: 66px;
+}
+.pacaz__cards-item{
+    border-radius: 6px;
+width: 255px;
+height: 312px;
+background: #fff;
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 10px;
+}
+.pacaz__cards-item h2, h3, h4, h5{
+    font-weight: 700;
+font-size: 20px;
+color: #000;
+font-family: 'Montserrat-Bold';
+}
+.pacaz__cards-item p{
+    font-weight: 400;
+font-size: 14px;
+text-transform: uppercase;
+color: #000;
+font-family: 'Montserrat-Regular';
+}
+.pacaz__cards-item a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 161px;
+height: 34px;
+border-radius: 6px;
+background: #151515;
+font-weight: 700;
+font-size: 16px;
+text-transform: uppercase;
+color: #fff;
+transition: .5;
+}
+.pacaz__cards-item a:hover{
+color: chocolate;
+}
+.footer{
+    box-shadow: 0 -4px 20px 0 rgba(0, 0, 0, 0.25);
+background: #282828;    
+margin-top: 68px;
+height: 215px;
+padding-top: 80px;
+
+}
+.footer__content{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.footer__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__icons-list{
+display: flex;
+gap: 29px;
+}
